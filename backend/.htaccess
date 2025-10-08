@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Set default file to serve
+DirectoryIndex index.php index.html
+
+# Skip existing files and folders
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Proxy all other requests to Node.js server running on port 5000
+RewriteRule ^(.*)$ http://127.0.0.1:5000/$1 [P,L]
+
+# Required for reverse proxy
+ProxyPreserveHost On
+ProxyRequests Off
