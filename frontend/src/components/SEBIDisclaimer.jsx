@@ -75,7 +75,7 @@ const SEBIDisclaimer = () => {
             <div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Intellectual property notice</h3>
               <p className="text-gray-700">
-                All content, courses, e-books, and materials on this platform are proprietary to Kritika Yadav and Kritika Yadav Pvt. Ltd. Unauthorized reproduction or distribution is strictly prohibited.
+                All content, courses, e-books, and materials on this platform are proprietary to Kritika Yadav and Market Maestroo Pvt. Ltd. Unauthorized reproduction or distribution is strictly prohibited.
               </p>
             </div>
           </div>

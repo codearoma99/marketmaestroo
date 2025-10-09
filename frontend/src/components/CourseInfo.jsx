@@ -185,7 +185,7 @@ console.log("Final price:", finalPrice.toFixed(2));
       key: 'rzp_test_R7xdrdgK4j4Z3r',
       amount: amountInPaise,
       currency: 'INR',
-      name: 'Kritika Yadav',
+      name: 'Market Maestroo',
       description: course.title,
       handler: async function (response) {
         // Payment successful, now save to DB

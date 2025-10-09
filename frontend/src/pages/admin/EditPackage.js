@@ -94,7 +94,7 @@ const EditPackage = () => {
       if (!response.ok) throw new Error(result.message || 'Failed to update package');
 
       alert('Package updated successfully');
-      navigate('/admin/packages/packages-list');
+      navigate('/admin/packages');
     } catch (err) {
       console.error('Error updating package:', err);
       alert(err.message);
